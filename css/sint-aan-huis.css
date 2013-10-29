@@ -1,0 +1,178 @@
+.navbar-header,
+.navbar-collapse,
+.jumbotron {
+  background-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body, a {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-family: "Fenix", serif;
+}
+
+.home {
+  background-image: url("../images/bg-home.jpg");
+}
+
+.mogelijkheden {
+  background-image: url("../images/bg-mogelijkheden.jpg");
+}
+
+.contact {
+  background-image: url("../images/bg-contact.jpg");
+}
+
+.fotogalerij {
+  background-image: url("../images/bg-fotogalerij.jpg");
+}
+
+.wrapper {
+  min-width: 768px;
+  min-height: 100%;
+  margin: 0 auto -4em;
+  position: relative;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+header, nav, main {
+  display: block;
+}
+
+.icons {
+  text-align: right;
+  margin: 0 0 1em 0;
+}
+
+.icons a {
+  display: inline-block;
+}
+
+nav {
+  position: absolute;
+  bottom: 39px;
+  right: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  font-size: 125%;
+  text-align: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:active,
+nav ul li a:hover {
+  color: #ffd900;
+}
+
+header {
+  position: relative;
+  margin-top: 2em;
+  height: 200px;
+}
+
+header h1 {
+  text-indent: -9999px;
+  direction: ltr;
+  position: absolute;
+  width: 275px;
+  height: 152px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+}
+
+.text-block {
+  padding: .5em 3em;
+  font-size: 125%;
+  margin-top: 15em;
+  margin-bottom: 2em;
+}
+
+.opac-white {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(255, 255, 255);
+  /* RGBa with 0.6 opacity */
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.text-block p {
+  font-size: 90%;
+}
+
+.text-block h1 {
+  color: #bb0000;
+}
+
+.text-block h1,
+.text-block h2 {
+  font-weight: bold;
+  font-family: "Fenix", serif;
+  font-size: 110%;
+}
+
+.text-block a,
+.text-block a:active,
+.text-block a:hover {
+  color: #bb0000;
+}
+
+.home .text-block {
+  background-color: transparent;
+  color: #fff;
+  width: 43%;
+  margin-top: 6em;
+}
+
+.home .text-block h1 {
+  color: #ffd900;
+  text-transform: none;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 115%;
+}
+
+.home .text-block a,
+.home .text-block a:active
+.home .text-block a:hover {
+  color: #fff;
+}
+
+.fotogalerij a.foto {
+  display: inline-block;
+  width: 24%;
+}
+
+.fotogalerij a.foto img {
+  width: 100%;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: underline;
+}
