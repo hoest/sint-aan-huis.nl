@@ -159,9 +159,16 @@ header h1 {
   color: #fff;
 }
 
+.fotogalerij .scroll {
+  overflow-y: scroll;
+}
+
+.fotogalerij .scroll p {
+  width: 1800px;
+}
+
 .fotogalerij a.foto {
   display: inline-block;
-  width: 24%;
 }
 
 .fotogalerij a.foto img {
