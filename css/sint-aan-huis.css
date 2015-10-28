@@ -183,3 +183,7 @@ a:hover {
 a {
   text-decoration: underline;
 }
+
+.agenda-vol {
+  font-weight: bold;
+}
